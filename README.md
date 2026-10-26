@@ -50,7 +50,9 @@ Settings are reactive inputs. The heavy calculations sit inside eventReactive() 
 The three methods are Global Moran’s I, Local Moran’s I (LISA) and Geary’s C.
 p-values come from the normal approximation, and the weights are row-standardised.
 The text boxes (hypotheses, interpretations, conclusion) are built with sprintf() from the live results, so they change with your choices.
-Packages used
+
+5. Packages used
+
 Package	What it does here
 shiny	The reactive web-app framework
 bslib	Page layout, cards, value boxes, theme and sidebars
